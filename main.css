@@ -1,0 +1,182 @@
+/*body{
+  font-family: Arial;
+  margin: 10px;
+  background-color: white;
+}
+
+header {
+  background-color: #F24C3D;
+  color: white;
+  text-align: center;
+  max-width: auto;
+  padding: 5px;
+  margin-top: 3px;
+}
+
+
+.title{
+  color: rgb(142, 18, 2);
+  background-color: white;
+  border: solid;
+  border-radius: 8px;
+  display: grid;
+  place-items: center;
+}
+
+.title h1 {
+  color: black;
+  padding-top: 20px;
+  background-color: white;
+}
+
+.title #no-fees {
+  color: black;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.how-it-works {
+  border: solid;
+  border-radius: 8px;
+  font-size: 18px;
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+  padding: 14px;
+  max-height: 100%;
+
+}
+
+.text-content, .image-content {
+  flex: 1;
+}
+.how-it-works h3, p {
+  text-align: center;
+}
+
+.logo {
+  height: 400px;
+  padding-left: 24px;
+}
+
+.list {
+  padding: 24px;
+}
+
+.btn-stripe {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 16px;
+  color: #fff;
+  background-color: #635BFF; /* Stripe's brand color, or choose your own 
+  text-align: center;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.btn-stripe:hover, .btn-stripe:focus {
+  background-color: #5348cc; /* Darker shade for hover effect 
+  color: #fff;
+  text-decoration: none; /* Ensures no underline appears on hover 
+}*/
+
+/* Common Styles */
+/* Reset and Basics */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f8f8f8;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Header Styles */
+header {
+  background-color: #F24C3D;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+/* Title Styles */
+.title {
+  background-color: #fff;
+  border-radius: 8px;
+  text-align: center;
+  padding: 30px;
+  margin: 20px 0;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.title h1 {
+  color: #E72D19;
+  margin-top: 0;
+  font-size: 2.5em;
+}
+
+.title #no-fees {
+  color: #333;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+/* How it Works Styles */
+.how-it-works {
+  background-color: #fff;
+  border-radius: 8px;
+  padding: 40px 20px;
+  margin: 20px 0;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.how-it-works h3 {
+  color: #E72D19;
+  margin-top: 0;
+  font-size: 1.8em;
+}
+
+.how-it-works p {
+  color: #555;
+}
+
+.image-content {
+  text-align: center;
+}
+
+.logo {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Payment Button Styles */
+.payment-button {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.btn-stripe {
+  display: inline-block;
+  padding: 15px 30px;
+  font-size: 1.2em;
+  color: #fff;
+  background-color: #fa3333;
+  border: none;
+  border-radius: 30px;
+  text-align: center;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.btn-stripe:hover, .btn-stripe:focus {
+  background-color: #c41212;
+}
+
+
